@@ -303,22 +303,23 @@ def main():
     crypto_tool = AdvancedCryptographyTool()
 
     while True:
-        print("\nAdvanced Cryptography Tool")
+        print("Welcome to MAGDADARO'S encryption tool!")
+        print("Select a mode:")
         print("1. Encrypt a file")
         print("2. Decrypt a file")
         print("3. Exit")
 
-        choice = input("Enter your choice (1/2/3): ")
+        choice = input("Enter your MODE (1/2/3): ")
 
         if choice == "1":
-            filename = input("Enter the filename to encrypt: ")
+            filename = input("Enter the filename (.txt) to encrypt: ")
             if os.path.exists(filename):
                 crypto_tool.encrypt_file(filename)
             else:
                 print("File not found!")
 
         elif choice == "2":
-            filename = input("Enter the filename to decrypt: ")
+            filename = input("Enter the filename (.enc) to decrypt: ")
             if os.path.exists(filename):
                 crypto_tool.decrypt_file(filename)
             else:
