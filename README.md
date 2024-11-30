@@ -37,7 +37,7 @@ The Advanced Cryptography Tool is a Python-based encryption and decryption utili
 1. Clone the repository:
    ```bash
    git clone https://github.com/raberu12/cryptography-project.git
-   cd advanced-cryptography-tool
+   cd cryptography-project
    ```
 
 2. Install required dependencies:
