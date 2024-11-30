@@ -1,0 +1,5 @@
+Bank Name: East West Bank of The Philippines
+Account Holder: Jan Carlo Juab
+Account Type: Savings Account
+Account Number: 123456789012
+Account Balance: $9,876,543,210,987.65
